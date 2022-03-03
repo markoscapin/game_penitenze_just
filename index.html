@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%; height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body style="height: 100vh; width: 100vw; display: flex; flex-direction: row; justify-content: center; margin: auto; background-color: black;" >
+    <main id="main" style="width: 100vw; display: flex; flex-direction: column; justify-content: center; ">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 960px; height: 170px; display: flex; margin: auto 3rem; flex-direction: column; justify-content: center;  text-align: center; background-color: #04F404;">
+                <div id="game">
+                    <button style="font-size: 1.5rem" onclick="startGame()">Inizia</button>
+                </div>
+                
+            </div>
+            <button id="fatto-button" onclick="startGame()" style="background-color: white; margin: auto; margin-top: 2rem;">Fatto</button>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 344px; height: 450px;  text-align: center; background-color: #04F404;  ">
+                    <div class="d-flex flex-column">
+                        <div id="player-1" class="d-flex flex-column justify-content-around" style="text-align: start; padding:1rem; height: 450px;"></div>
+                    </div>
+                </div>
+                <button value="1" style="background-color: white; margin: auto; margin-left: 2rem;" onclick="addPenitence(this)">Penitenza</button>
+            </div>
+        
+                <div style="display: flex; flex-direction: row;">
+                    <button value="2" style="background-color: white; margin: auto; margin-right: 2rem;" onclick="addPenitence(this)">Penitenza</button>
+                    <div style="width: 344px; height: 450px; text-align: center; background-color: #04F404; ">
+                        <div class="d-flex flex-column" >
+                            <div id="player-2" class="d-flex flex-column justify-content-around" style="text-align: start; padding:1rem; height: 450px;"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+        
+        
+        </div>
+        
+    </main>
+
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "gioco-penitenze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markoscapin/game_penitenze_just.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markoscapin/game_penitenze_just/issues"
+  },
+  "homepage": "https://github.com/markoscapin/game_penitenze_just#readme"
+}
